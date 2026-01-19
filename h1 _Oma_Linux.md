@@ -10,3 +10,5 @@
    - Hardware. Perus, ehdotetuilla arvoilla(Base Mem: 2048MB, Processors 2 CPU)
    - Virtual Hard disk, ehdotetulla koolla 20 GB
    - Asenna...
+
+   ![Debian 13 Oracle VM VirtualBox](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/Debian%2013%20VM_kuva%201.jpg)
