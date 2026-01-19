@@ -11,10 +11,10 @@ Alla yksinkertainen C-ohjelma, joka tulostaa tekstin ruudulle:
 #include <stdio.h>
 
 int main(void) {
-    printf("So if you see my downeaster "Alexa"\n
-              And if you work with the rod and the reel\n
-              Tell my wife I am trolling Atlantis\n
-              And I still have my hands on the wheel\n");
+    printf("So if you see my downeaster \"Alexa\"\n"
+           "And if you work with the rod and the reel\n"
+           "Tell my wife I am trolling Atlantis\n"
+           "And I still have my hands on the wheel\n");
     return 0;
 }
 ```
