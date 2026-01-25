@@ -21,4 +21,4 @@ Tämä raportti tarjoaa vaiheittaisen oppaan Debian 13 Linux-jakelun asentamisee
    
    
 
-   ![Debian 13 Oracle VM VirtualBox](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/Debian%2013%20VM_kuva%201.jpg)
+   ![Oracle VM VirtualBox](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/WB_1.jpg)
