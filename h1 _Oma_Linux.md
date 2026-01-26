@@ -56,6 +56,8 @@ Tämä raportti tarjoaa vaiheittaisen oppaan Debian 13 Linux-jakelun asentamisee
 ### 2.3 Muisti ja prosessori
 - Base Memory: 4096 MB (4 GB)
 - Processors: 2
+  
+![Base memory](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/basememory.jpg)
 
 4 GB muistia riittää Debianin graafiseen työpöytäkäyttöön.
 Kaksi prosessoriydintä parantaa järjestelmän reagointia
