@@ -67,6 +67,8 @@ ilman että kuormittaa liikaa isäntäkoneen resursseja
 1. Valitse: "Create Virtual Hard Disk Now"
 2. Koko (Size) 20 GB
 
+![Virtual memory](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/virtual_HD.jpg)
+
 ### 2.4 Summary / Yhteenveto
 VirtualBox näyttää yhteenvedon tehdyistä valinnoista.
 Tarkista asetukset ja hyväksy ne painamalla **Finish**.
