@@ -91,6 +91,8 @@ ja suorittamalla peruspäivitykset terminaalissa.
 Ennen järjestelmän käyttöä on suositeltavaa päivittää pakettiluettelot
 ja asentaa saatavilla olevat päivitykset.
 
+![Terminal](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/post_update.jpg)
+
 Suorita seuraavat komennot:
 ``` bash
 sudo apt update
