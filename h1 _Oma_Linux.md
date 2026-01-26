@@ -74,6 +74,8 @@ VirtualBox näyttää yhteenvedon tehdyistä valinnoista.
 Tarkista asetukset ja hyväksy ne painamalla **Finish**.
 -> Tässä vaihessa asennuksessa voi kestää hetki
 
+![Summary](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/Summary.jpg)
+
 ## 3 Asennuksen varmistaminen ja järjestelmän päivitys
 
 Asennuksen onnistuminen varmistetaan kirjautumalla järjestelmään
