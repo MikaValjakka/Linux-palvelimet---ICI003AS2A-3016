@@ -51,6 +51,7 @@ Tämä raportti tarjoaa vaiheittaisen oppaan Debian 13 Linux-jakelun asentamisee
 -   Password: Valitse oikea vahva salasana.
   
   Käyttäjä luodaan asennuksen yhteydessä, jotta järjestelmää ei tarvitse käyttää root-käyttäjällä päivittäisessä työskentelyssä.
+  ![User and Password](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/k%C3%A4ytt%C3%A4j%C3%A4tiedot.jpg)
 
 ### 2.3 Muisti ja prosessori
 - Base Memory: 4096 MB (4 GB)
