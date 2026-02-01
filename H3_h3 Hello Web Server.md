@@ -190,14 +190,14 @@ Työkalu jolla voit:
 curl -i http://localhost
 ```
 Tuloste antaa tiedot:
-HTTP-vastaus kokonaisuutena: protokollaversio statuskoodi selitys
-Date: Hetki jolloin palvelin loi vastauksen
-Server: Mikä ohjelma(serveri) vastasi
-Last-Modified: Milloin tiedostoa on muokattu viimeksi
-ETag: uniikki tunniste tiedosto versiolle.. sormenjälki
-Accept-Ranges: Palvelin tukee osittaista latausta
-Content-Length: Vastauksen koko tavuina
-Content-Type: Minkä tyyppistä dataa on kyseessä
+- HTTP-vastaus kokonaisuutena: protokollaversio statuskoodi selitys
+- Date: Hetki jolloin palvelin loi vastauksen
+- Server: Mikä ohjelma(serveri) vastasi
+- Last-Modified: Milloin tiedostoa on muokattu viimeksi
+- ETag: uniikki tunniste tiedosto versiolle.. sormenjälki
+- Accept-Ranges: Palvelin tukee osittaista latausta
+- Content-Length: Vastauksen koko tavuina
+- Content-Type: Minkä tyyppistä dataa on kyseessä
 
 ------------------------------------------------------------------------
 
