@@ -42,16 +42,20 @@ hostnamea, mikä voi johtaa virheelliseen sivustovalintaan.
 ------------------------------------------------------------------------
 
 ## 3. Apache2:n asennus
+![which apache](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/serveri1.jpg)
 
 ``` bash
 sudo apt-get update
 sudo apt-get install apache2
 ```
+![Update and upgrade linux](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/serveri2.jpg)
+![installing apache2](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/serveri3.jpg)
 
 Testaus selaimessa:
 
     http://localhost
     http://127.0.0.1
+![Testing defaul apache](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/serveri4.jpg)
 
 ------------------------------------------------------------------------
 
@@ -65,6 +69,7 @@ Tärkeimmät kansiot:
 
 -   `sites-available/` → kaikki määritellyt sivustot
 -   `sites-enabled/` → aktiiviset sivustot (symboliset linkit)
+![path to sites-available](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/serveri5.jpg)
 
 ------------------------------------------------------------------------
 
@@ -111,6 +116,7 @@ sudo systemctl reload apache2
 -   `a2dissite` → poistaa oletussivun
 -   `a2ensite` → aktivoi oman sivuston
 -   `reload` → lataa uudet asetukset
+![site disabling and enabling](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/serveri6.jpg)
 
 ------------------------------------------------------------------------
 
@@ -122,6 +128,7 @@ chmod ugo+x /home/mikavee/publicsites
 ```
 
 **Tarkoitus:** Apache tarvitsee luku- ja suoritusoikeudet kansioihin.
+![Folder rights and priviliges](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/serveri7.jpg)
 
 ------------------------------------------------------------------------
 
@@ -131,10 +138,12 @@ chmod ugo+x /home/mikavee/publicsites
 cd /home/mikavee/publicsites/mikavee
 echo "Hello World 🖤" > index.html
 ```
+![Creating index.html](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/serveri8.jpg)
 
 Selain näyttää nyt:
 
     Hello World 🖤
+![Test and open with browser](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/serveri9.jpg)
 
 ------------------------------------------------------------------------
 
