@@ -166,7 +166,38 @@ Selain näyttää nyt:
    Apache lukee konfiguraatiossa määritellyn DocumentRoot-kansion
 
 6. index.html:
-   Apache etsii oletustiedoston (index.html) ja palauttaa sen selaimelle
+   Apache etsii oletustiedoston (index.html) ja palauttaa sen selaimella
+
+## 10. Bonus! Curl komennon käyttö
+Yksi käytetyimmistä työkaluista Linux-, verkko- ja palvelinmaailmassa
+curl = Client URL
+
+Työkalu jolla voit:
+- lähettää HTTP-pyyntöjä
+
+- testata web-palvelimia
+
+- tarkistaa API-rajapintoja
+
+- debugata HTTP-liikennettä
+
+- hakea tiedostoja
+### Esimerkki komento:
+
+![curl command example](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/serveri10.jpg)
+
+```
+curl -i http://localhost
+```
+Tuloste antaa tiedot:
+HTTP-vastaus kokonaisuutena: protokollaversio statuskoodi selitys
+Date: Hetki jolloin palvelin loi vastauksen
+Server: Mikä ohjelma(serveri) vastasi
+Last-Modified: Milloin tiedostoa on muokattu viimeksi
+ETag: uniikki tunniste tiedosto versiolle.. sormenjälki
+Accept-Ranges: Palvelin tukee osittaista latausta
+Content-Length: Vastauksen koko tavuina
+Content-Type: Minkä tyyppistä dataa on kyseessä
 
 ------------------------------------------------------------------------
 
