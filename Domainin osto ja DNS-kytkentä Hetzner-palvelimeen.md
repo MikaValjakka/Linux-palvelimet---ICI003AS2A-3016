@@ -7,12 +7,15 @@ Tämä ohje kuvaa vaihe vaiheelta, miten domain ostetaan Namecheapistä ja liite
 ## 1. Domainin osto
 
 1. Mene domain-rekisteröijän sivulle (esim. Namecheap)
+
 2. Hae haluamasi domain (esim. `mikavee.xyz`)
+![add to cart](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/add%20to%20cart.jpg)
 3. Osta domain **ilman** lisäpalveluita:
 
    * ei hostingia
    * ei sähköpostia
    * ei site builderia
+![in cart](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/in%20cart.jpg)
 4. WHOIS Privacy kannattaa pitää päällä
 
 Domain on nyt rekisteröity, mutta ei vielä osoita mihinkään.
@@ -23,8 +26,10 @@ Domain on nyt rekisteröity, mutta ei vielä osoita mihinkään.
 
 1. Kirjaudu Namecheapiin
 2. Mene **Domain List**
+![domain list](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/domain%20list.jpg)
 3. Valitse domain (esim. `mikavee.xyz`)
 4. Avaa **Advanced DNS**
+![Advanced DNS](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/Advanced%20DNS.jpg)
 
 ---
 
@@ -72,6 +77,7 @@ Lopputuloksena DNS-listassa tulee olla vain:
 A   @     (SERVERISI IP OSOITE)
 A   www   (SERVERISI IP OSOITE)
 ```
+![Host Record](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/host%20record.jpg)
 
 ---
 
@@ -92,6 +98,7 @@ dig mikavee.xyz +short
 ```
 
 Jos vastauksena on Hetzner-palvelimen IP-osoite, DNS toimii oikein.
+![ping and get](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/ping%20from%20server.jpg)
 
 ---
 
@@ -152,4 +159,3 @@ HTTPS käsitellään seuraavassa ohjeessa.
 * Apache hoitaa varsinaisen sisällön
 * HTTPS lisätään vasta kun DNS toimii
 
-Tämä on tuotantotason ja siirrettävä ratkaisu.
