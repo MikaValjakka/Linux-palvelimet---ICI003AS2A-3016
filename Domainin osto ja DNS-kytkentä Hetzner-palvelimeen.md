@@ -102,28 +102,31 @@ Kun DNS osoittaa oikein, Apache voidaan konfiguroida domainille.
 VirtualHost-tiedosto:
 
 ```
-/etc/apache2/sites-available/mikavee.xyz.conf
+/etc/apache2/sites-available/mikavee.conf (tai sinun sivusi.conf)
 ```
 
 Sisältö:
 
 ```
 <VirtualHost *:80>
-    ServerName mikavee.xyz
-    ServerAlias www.mikavee.xyz
+    ServerName mikavee.xyz <-TÄMÄ MUUTETTIIN
+    ServerAlias www.mikavee.xyz <- TÄMÄ MUUTETTIIN
 
     DocumentRoot /var/www/mikavee
 
     <Directory /var/www/mikavee>
+        AllowOverride All
         Require all granted
     </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/mikavee_error.log
+    CustomLog ${APACHE_LOG_DIR}/mikavee_access.log combined
 </VirtualHost>
 ```
 
-Ota sivusto käyttöön:
+Ota sivusto käyttöön, eli reloadataan apache2:
 
 ```bash
-sudo a2ensite mikavee.xyz
 sudo systemctl reload apache2
 ```
 
