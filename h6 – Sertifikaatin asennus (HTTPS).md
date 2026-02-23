@@ -55,7 +55,7 @@ Certbot asennetaan **vain palvelimelle**, jossa Apache pyörii.
 sudo apt update
 sudo apt install certbot python3-certbot-apache
 ```
-
+![Certbot install](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/1sertifikaatti_install.jpg)
 ---
 
 ## 3. Sertifikaatin hankinta ja asennus
@@ -65,6 +65,9 @@ Ajetaan Certbot Apache‑pluginilla:
 ```bash
 sudo certbot --apache
 ```
+1. Kysyy sähköposti osoitetta **oikea osoite (expiry-varoitukset)**
+2. Terms of Service → **hyväksy**
+3. Domainit: esim. mikavee.xyz ja www.mikavee.xyz **Jos valitse monta, paina vain enter**
 
 Certbot:
 
@@ -122,6 +125,7 @@ sudo certbot renew --dry-run
 
 Certbot asentaa myös systemd‑timerin, joka hoitaa uusinnan automaattisesti.
 ### Bonuksena voidaan sivu testata esim. SSLLabs
+![SSL report](https://github.com/MikaValjakka/Linux-palvelimet---ICI003AS2A-3016/blob/main/pictures/1sertifikaatti_raportti.jpg)
 
 ---
 
